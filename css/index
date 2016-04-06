@@ -1,0 +1,162 @@
+body {
+    overflow: hidden;
+}
+
+
+/* 头部 */
+
+.header-bg,
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 99;
+}
+
+.header-bg {
+    /* background-color: rgba(153,153,153,0.3); */
+    background-color: #999;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.header .logo {
+    float: left;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+.header .logo img,
+.header .logo p {
+    float: left;
+}
+
+.header .logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.header .logo p {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.header .nav-top {
+    float: right;
+    margin: 30px 50px 0 0;
+}
+
+.header .nav-top li {
+    float: left;
+    margin-right: 25px;
+}
+.header .nav-top li a{
+    color: #fff;
+}
+
+/* fullPage 不依赖jQuery */
+
+/* #pageContain {
+    overflow: hidden;
+}
+
+.page {
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: relative;
+    z-index: 0;
+}
+
+.current .contain,
+.slide .contain {
+    display: block;
+}
+
+.current {
+    display: block;
+    z-index: 1;
+}
+
+.slide {
+    display: block;
+    z-index: 2;
+}
+
+.page1 {
+    background: #37c1e3;
+}
+
+.page2 {
+    background: #009922;
+}
+
+.page3 {
+    background: #992211;
+}
+
+.page4 {
+    background: #ff00ff;
+}
+
+.page5 {
+    background: #00ff00;
+}
+
+.page6 {
+    background: #22ffff;
+}
+
+#navBar {
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    -webkit-transformY: (-50%);
+    -moz-transformY: (-50%);
+    -ms-transformY: (-50%);
+    -o-transformY: (-50%);
+    transformY: (-50%);
+}
+
+#navBar .active {
+    background: #ccc;
+}
+
+#navBar li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all .7s ease;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+} */
+
+
+/* 主体 */
+
+.about,.skill,.exp,.works,.contact{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #bcd;
+}
+.about{
+    background: url(../images/bg.jpg) no-repeat top center;
+    background-size: cover;
+}
