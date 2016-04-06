@@ -53,11 +53,14 @@ body {
     float: left;
     margin-right: 25px;
 }
-.header .nav-top li a{
+
+.header .nav-top li a {
     color: #fff;
 }
 
+
 /* fullPage 不依赖jQuery */
+
 
 /* #pageContain {
     overflow: hidden;
@@ -150,13 +153,41 @@ body {
 
 /* 主体 */
 
-.about,.skill,.exp,.works,.contact{
+.about,
+.skill,
+.exp,
+.works,
+.contact {
     position: relative;
     width: 100%;
     height: 100%;
     background-color: #bcd;
 }
-.about{
+
+.about-cont,
+.skill-cont,
+.exp-cont,
+.works-cont,
+.contact-cont {
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+/* 关于我 */
+
+.about {
     background: url(../images/bg.jpg) no-repeat top center;
     background-size: cover;
+}
+
+.about-cont {
+    padding-top: 200px;
+}
+
+.about-cont .picture {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 75px;
 }
