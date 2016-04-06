@@ -1,0 +1,55 @@
+/*
+ * css reset
+ *
+ * created by:xujuan
+ * time:2015-05-11
+ *
+*/
+
+
+/* ========== */
+/* = css reset = */
+/* ========== */
+@charset "utf-8";
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust: 100%;}/* 禁用iPhone中Safari的字号自动调整 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td,article,aside, details,figcaption,figure, footer, header, hgroup,menu, nav, section { margin:0;padding:0;word-break: break-all;word-wrap: break-word;}
+body { color:#333;background:#f1f1f1; line-height:1; font-family:Arial,"Microsoft YaHei";min-width:290px;}
+fieldset, img { border:0; display:block;}
+ol, ul,dl { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%;font-weight:normal; }
+em,s,i{ font-style:normal; }
+input, button, select, textarea { border:0;outline:none; } 
+textarea { resize:none; }/*禁用了文本的拖拉，尤其在谷歌下*/
+/*p{text-align:justify; text-justify:distribute;} /*使文本段落左右两边对齐*/
+a{text-decoration:none;color:#3c3c3c;display: inline-block;}
+a:hover{color:#333;}
+
+
+/* ========== */
+/* = global = */
+/* ========== */
+/*浮动*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/*清除浮动*/
+.clearfix:before,.clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+
+
+
+/*CSS3的transition 闪屏问题*/
+/*-webkit-transform-style: preserve-3d;/*设置内嵌的元素在 3D 空间如何呈现：保留 3D*/
+/*-webkit-backface-visibility: hidden;/*（设置进行转换的元素的背面在面对用户时是否可见：隐藏）*/
+
+/*其他*/
+/*-webkit-tap-highlight-color: transparent; /*Mobile上点击链接高亮的时候设置颜色为透明*/
+/*-webkit-user-select: none; /*设置为无法选择文本*/
+/*-webkit-touch-callout: none; /*长按时不触发系统的菜单（禁止ios弹出各种操作窗口）, 可用在图片上加这个属性禁止下载图片*/
+/*-webkit-overflow-scrolling: touch;/*快速滚动和回弹，模拟原生app效果*/
+
