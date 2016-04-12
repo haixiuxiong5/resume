@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 </head>
 
 <body>
@@ -16,53 +17,161 @@
     <div class="header">
         <div class="logo">
             <img src="images/logo.jpg">
-            <p>个人简历</p>
+            <p>resume</p>
         </div>
         <div class="nav-top">
             <ul>
-                <li><a href="#">首页</a></li>
-                <li><a href="#">首页</a></li>
-                <li><a href="#">首页</a></li>
-                <li><a href="#">首页</a></li>
+                <li><a href="#page1">关于我</a></li>
+                <li><a href="#page2">我的技能</a></li>
+                <li><a href="#page3">工作经历</a></li>
+                <li><a href="#page4">我的作品</a></li>
+                <li><a href="#page5"></a></li>
             </ul>
         </div>
     </div>
     <!-- jQuery.fullPage.js  依赖jQuery -->
-	<div id="container">
-		<div class="section active">
-			<div class="about">
-				<div class="about-cont">
-					<div class="picture"><img src="images/logo.jpg"></div>
-					<div class="basic-info">
-						
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section">
-			<div class="skill">
-				<div class="skill-cont"></div>
-			</div>
-		</div>
-		<div class="section">
-			<div class="exp">
-				<div class="exp-cont"></div>
-			</div>
-		</div>
-		<div class="section">
-			<div class="works">
-				<div class="works-cont"></div>
-			</div>
-		</div>
-		<div class="section">
-			<div class="contact">
-				<div class="contact-cont"></div>
-			</div>
-		</div>
-
-	</div>
-
-
+    <div id="container">
+        <div class="section active section1">
+            <div class="about-bg"></div>
+            <div class="about">
+                <div class="about-cont">
+                    <div class="picture"></div>
+                    <div class="basic-info">
+                        <p class="name">许娟<span>Age:25</span></p>
+                        <p class="purpose">web前端</p>
+                        <div class="motto">比靠山还可靠的，是让自己有价值。</div>
+                        <div class="info-more">
+                            <p class="clearfix">
+                                <span><i class="icon-laptop"></i>计算机科学与技术</span>
+                                <span><i class="icon-mobile-phone" style="font-size: 22px;"></i>18511865990</span>
+                            </p>
+                            <p class="clearfix">
+                                <span><i class="icon-envelope"></i>xujuan027@163.com</span>
+                                <span><i class="icon-leaf"></i>北京市</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="skill">
+                <div class="skill-cont">
+                    <div class="skill-box skill-box1">
+                        <div class="skill-box-in">精通html/css，熟练使用div+css布局，能独立html、css的页面制作、具备良好的css功底;</div>
+                    </div>
+                    <div class="skill-box skill-box2">
+                        <div class="skill-box-in">熟练掌握photoshop、fireworks、Dreamweaver等日常网站设计工具；熟练使用Fiddler调试代理工具</div>
+                    </div>
+                    <div class="skill-box skill-box3">
+                        <div class="skill-box-in">熟悉HTML5、CSS3的新功能特性，有项目开发经验;了解bootstrap，有实际开发经验</div>
+                    </div>
+                    <div class="skill-box skill-box4">
+                        <div class="skill-box-in">有不同浏览器、不同型号手机兼容问题的处理经验</div>
+                    </div>
+                    <div class="skill-box skill-box5">
+                        <div class="skill-box-in">熟悉javaScript，熟悉jquery，zepto等js库并有开发经验；配合后台开发人员实现产品界面和功能实现的项目经验；协同程序员进行页面的调整和修改</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="exp">
+                <div class="exp-cont">
+                    <div class="content">
+                        <div class="content-item">
+                            <div class="content-icon-arrow"></div>
+                            <div class="content-icon-dot">
+                                <div class="content-icon-dot-child"></div>
+                            </div>
+                            <div class="content-intro-hd">
+                                2015.1——至今
+                            </div>
+                            <div class="content-intro-bd">
+                                <p>所在公司：<span class="bold font-333">北京中搜网络技术有限公司</span></p>
+                                <p>主要负责：配合后台开发人员实现产品界面和交互，主要是移动端页面。</p>
+                            </div>
+                        </div>
+                        <div class="content-item">
+                            <div class="content-icon-arrow"></div>
+                            <div class="content-icon-dot">
+                                <div class="content-icon-dot-child"></div>
+                            </div>
+                            <div class="content-intro-hd">
+                                2013.7—2014.11
+                            </div>
+                            <div class="content-intro-bd">
+                                <p>所在公司：<span class="bold font-333">山东中兖矿业设备制造有限公司</span></p>
+                                <p>主要负责：1、涉及一部分网站的设计工作；</p>
+                                <p>2、代码实现网站及JS、jQuery实现网站特效工作；</p>
+                                <p>3、完成上级领导分配的其他任务。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="works">
+                <div class="works-cont">
+                    <div class="work-item">
+                        <img src="images/work1.jpg">
+                        <a href="http://m.esn.zhongsou.com/index.php">
+                            <div class="work-in">
+                                <h2>企业之窗官网(移动端)</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work-item">
+                        <img src="images/work1.jpg">
+                        <a href="http://m.esn.zhongsou.com/gd/index.php">
+                            <div class="work-in">
+                                <h2>企业之窗介绍(移动端)</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work-item">
+                        <img src="images/work1.jpg">
+                        <a href="http://m.esn.zhongsou.com/h/index.php">
+                            <div class="work-in">
+                                <h2>暴风行动英雄帖(移动端)</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work-item">
+                        <img src="images/work1.jpg">
+                        <a href="http://sns.zae.zhongsou.com/snswj/lists">
+                            <div class="work-in">
+                                <h2>社交微件(移动端)</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work-item">
+                        <img src="images/work1.jpg">
+                        <a href="http://pkdj.zae.zhongsou.com/jdswj/jdspkinfo?md5=2b4c09e3196eba37d456009d6cb2159d&id=26&type=2&uid=838965&imei=868024020674447&anonymous=1&times=1456906115048">
+                            <div class="work-in">
+                                <h2>PK微件(移动端)</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work-item">
+                        <img src="images/work1.jpg">
+                        <a href="http://esn.zhongsou.com/">
+                            <div class="work-in">
+                                <h2>企业之窗官网</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="contact">
+                <div class="contact-cont">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- fullPage  不依赖jQuery -->
     <!-- <div id="pageContain">
         <div class="page page1 current">
@@ -89,12 +198,18 @@
     <script type="text/javascript" src='js/jquery.fullPage.min.js'></script>
     <script type="text/javascript">
     $(document).ready(function() {
-    	$('#container').fullpage({
-    		// sectionsColor: ['#bcd', '#fcc', '#fc3', '#d44', '#2de'],
+        $('#container').fullpage({
+            // sectionsColor: ['#bcd', '#fcc', '#fc3', '#d44', '#2de'],
             'navigation': true,
-            anchors: ["page1", "page2", "page3", "page4"],
-            navigationTooltips:['关于我','我的技能','工作经历','我的作品','联系我']
-    	});
+            anchors: ["page1", "page2", "page3", "page4","page5"],
+            navigationTooltips: ['关于我', '我的技能', '工作经历', '我的作品', '联系我']
+        });
+
+        $('.works-cont .work-item').hover(function() {
+            $(this).children('a').children('.work-in').stop().slideDown();
+        }, function() {
+            $(this).children('a').children('.work-in').stop().slideUp();
+        });
     });
     </script>
     <!-- fullPage  不依赖jQuery -->
